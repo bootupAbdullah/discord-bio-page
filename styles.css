@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,800;0,900;1,100;1,300;1,400;1,500;1,700;1,800;1,900&family=Dancing+Script:wght@400..700&family=Edu+NSW+ACT+Cursive:wght@400..700&family=Libertinus+Math&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap');
+
+
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Alegreya Sans', BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+}
+
+.bio-container {
+    background-image: url('assets/space_art_image_1.png');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+.bio-content {
+    background-color: rgba(0, 0, 0, 0.65);
+    padding: 30px;
+    border-radius: 12px;
+    color: white;
+    max-width: 800px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+.main-title {
+    color: white;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.subtitle {
+    color: white;
+    font-size: 1.3em;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+
+.section-title {
+    color: white;
+    font-size: 1.8em;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.project-title {
+    color: white;
+    font-size: 1.4em;
+    margin-bottom: 8px;
+}
+
+
+.intro-text, .project-description, .motivation-text, .cta-text {
+    color: white;
+    margin-bottom: 15px;
+}
+
+.intro-text {
+       font-size: 1.2em;
+}
+
+.project-description {
+       font-size: 1.2em;
+}
+
+.project-link, .social-link {
+    color: #58a6ff;
+    text-decoration: none;
+}
+
+.project-link:hover, .social-link:hover {
+    text-decoration: underline;
+}
+
+.section-divider {
+    border: none;
+    height: 1px;
+    background-color: rgba(255, 255, 255, 0.3);
+    margin: 30px 0;
+}
+
+.project-features, .skills-list {
+    padding-left: 20px;
+}
+
+.feature-item, .skill-item {
+    margin-bottom: 5px;
+    color: white;
+}
+
+.feature-label, .skill-category, .highlight {
+    color: #f0f6fc;
+    font-weight: bold;
+}
+
+.projects-section, .skills-section, .motivation-section, .contact-section, .cta-section {
+    margin-bottom: 20px;
+}
+
+.project-item {
+    margin-bottom: 25px;
+}
+
+.social-links {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.social-badge {
+    display: block;
+}
+
+
+/* Tablet */
+@media (max-width: 768px) {
+   .bio-content {
+       padding: 20px;
+       margin: 10px;
+   }
+   
+   .main-title {
+       font-size: 2em;
+   }
+   
+   .subtitle {
+       font-size: 1.1em;
+   }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+   .bio-container {
+       padding: 10px;
+   }
+   
+   .bio-content {
+       padding: 15px;
+   }
+   
+   .main-title {
+       font-size: 1.8em;
+   }
+   
+   .social-links {
+       flex-direction: column;
+       align-items: center;
+   }
+}
