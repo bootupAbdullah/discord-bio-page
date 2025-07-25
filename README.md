@@ -1,5 +1,8 @@
+<div style="background-image: url('assets/space_art_image_1.png'); background-size: cover; background-position: center; padding: 20px;">
+<div style="background-color: rgba(0, 0, 0, 0.7); padding: 20px; border-radius: 8px;">
+
 # 👋 Hi, I'm Abdullah!
-## 💻 Full Stack Developer | 👨‍👩‍👧 Husband & Father | ☕ Coffee Aficionado
+## 👨‍👩‍👧 Husband | 👨‍👧‍👦 Father | 💻 Programmer | 📚 Comic Book Reader | 🍜 Ramen Enthusiast | ☕ Coffee Aficionado | ✍️ Writer of Prompts | ✝️ Follower of Jesus Christ
 
 I'm a full stack developer based in **Richmond, VA**, passionate about building meaningful software solutions. Currently participating in a **DevSecOps Fellowship at ProgramEarth**, contributing to climate solutions through technology while expanding my skills in Docker, CI/CD, and secure development practices.
 
@@ -45,3 +48,6 @@ Passionate about driving meaningful change by empowering others to build. I'm co
 ---
 
 Feel free to reach out—I'm always open to collaborating on impactful projects! 🚀
+
+</div>
+</div>
